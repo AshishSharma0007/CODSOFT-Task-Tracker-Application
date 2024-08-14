@@ -88,7 +88,7 @@ function App() {
           type="checkbox"
           checked={showFinished}
         />{" "}
-        <span className="text-white">Show Finished</span>
+        <span className="text-white py-2">Show Finished</span>
         <h2 className="text-lg font-bold text-white">Your Tasks</h2>
         <div className="todos">
           {todos.length === 0 && (
